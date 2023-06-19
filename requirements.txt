@@ -1,5 +1,8 @@
 dash
+dash_auth
 pandas
 numpy
 dash_bootstrap_components
 dash_bootstrap_templates
+dash-core-components
+gunicorn
