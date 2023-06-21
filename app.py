@@ -100,7 +100,7 @@ def render_page_content(cities, main_variable):
 
     fig_city = px.bar(df_city, x="City", y=main_variable)
     
-    fig_payment = px.bar(df_payment, y="Payment", x=main_variable, orientation="h")
+    fig_payment = px.bar(df_payment, y="Payment", x=main_variable)
     
     fig_gender = px.bar(df_gender, y=main_variable, x="Gender", color="City", barmode= "group")
 
